@@ -128,7 +128,7 @@ TextLabel:TweenSizeAndPosition(UDim2.new(0, 404,0, 70),
 LoadingFire.Visible = true
 GameLabel.Visible = true
 LoadingText.Visible = true
-wait(2)
+wait(10)
 Loading.MainLoad.LoadingText:Destroy()
 LoadingFire:Destroy()
 GameLabel:Destroy()
