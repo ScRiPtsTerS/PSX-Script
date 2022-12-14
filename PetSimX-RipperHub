@@ -6,6 +6,8 @@
 ██║  ██║██║██║     ██║     ███████╗██║  ██║██║  ██║╚██████╔╝██████╔╝
 ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ 
 ]]
+repeat task.wait() until game:IsLoaded() == true
+getgenv().exec = tostring(identifyexecutor()) -- identifyexecutor
 if getgenv().isloading == nil then
 getgenv().isloading = false
 local LoadingHub = Instance.new("ScreenGui")
